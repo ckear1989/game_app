@@ -2,7 +2,7 @@
 
 class ApplicationController < ActionController::Base
   def landing
-    render html: "hello, world!"
+    render "application/hello_world"
   end
   def new_game
     render html: "new game"
