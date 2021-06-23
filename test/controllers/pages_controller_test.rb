@@ -5,4 +5,9 @@ class PagesControllerTest < ActionDispatch::IntegrationTest
     get pages_landing_url
     assert_response :success
   end
+
+  test "should get new game" do
+    get pages_new_game_url
+    assert_response :success
+  end
 end
