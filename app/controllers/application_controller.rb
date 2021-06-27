@@ -5,6 +5,6 @@ class ApplicationController < ActionController::Base
     render "application/hello_world"
   end
   def new_game
-    render html: "new game"
+    render "application/new_game"
   end
 end
